@@ -1,0 +1,4 @@
+interface:
+  short_description: "提炼真实观点、边界条件、反例、待验证项以及个人经验依据"
+  short_description: "提炼真实观点、边界条件、反例、待验证项以及个人经验依据"
+  default_prompt: "Use $calibrate-my-view-v1 to clarify my actual position, its boundaries, and what still needs verification."
