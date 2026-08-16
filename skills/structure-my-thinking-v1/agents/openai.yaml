@@ -1,0 +1,4 @@
+interface:
+  short_description: "把碎片想法整理成可追溯、可行动并能继续推进的清晰思考结构"
+  short_description: "把碎片想法整理成可追溯、可行动并能继续推进的清晰思考结构"
+  default_prompt: "Use $structure-my-thinking-v1 to clarify this fragmented thought and ask only the one decisive question first."
