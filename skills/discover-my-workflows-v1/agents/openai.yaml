@@ -1,0 +1,4 @@
+interface:
+  short_description: "从真实任务记录识别重复劳动、标准化机会以及自动化机会"
+  short_description: "从真实任务记录识别重复劳动、标准化机会以及自动化机会"
+  default_prompt: "Use $discover-my-workflows-v1 to analyze these records for repeated work and recommend what to standardize first."
