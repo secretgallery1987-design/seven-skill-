@@ -1,0 +1,4 @@
+interface:
+  short_description: "把观点或经历转为聚焦选题并评估内容资产与产品资产潜力"
+  short_description: "把观点或经历转为聚焦选题并评估内容资产与产品资产潜力"
+  default_prompt: "Use $assetize-content-idea-v1 to turn this idea into a focused content topic and assess its asset potential."
