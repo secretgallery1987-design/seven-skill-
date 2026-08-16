@@ -1,6 +1,6 @@
 # 第一阶段：个人创作认知工作流 Skills V1
 
-这是一套由用户手动选择调用的 5 个独立 Skill。它们共享结构化、可追溯、手机低摩擦的原则，但各自只完成一种任务。当前版本不包含总控 Agent；等真实使用积累出稳定路由和停顿点后，再考虑自动调度。
+这是一套由用户确认后调用的 5 个独立专业 Skill，另有 1 个只负责询问确认的轻量入口 Skill。五个专业模块共享结构化、可追溯、手机低摩擦的原则，但各自只完成一种任务。入口不执行专业工作，也不自动串联模块，因此当前版本仍不包含总控 Agent。
 
 ## 统一命名与目录
 
@@ -12,10 +12,13 @@ phase-1-personal-workflow-skills/
     ├── distill-knowledge-v1/
     ├── calibrate-my-view-v1/
     ├── assetize-content-idea-v1/
-    └── discover-my-workflows-v1/
+    ├── discover-my-workflows-v1/
+    └── choose-personal-workflow-v1/
 ```
 
 统一采用“动词 + 对象 + `-v1`”命名。每个目录中的 `SKILL.md` 是工作协议，`agents/openai.yaml` 是 Codex 的展示和默认调用信息。
+
+当用户没有说明想怎样处理一段文字或图片时，`$choose-personal-workflow-v1` 只推荐最合适的方向并问一句确认问题。用户不需要记住其他 Skill 的英文名称。
 
 ## 选择哪一个
 
@@ -83,4 +86,3 @@ phase-1-personal-workflow-skills/
 ## 安装
 
 将 `skills/` 下的五个文件夹复制到你的 Codex Skills 目录，然后重启或刷新 Codex。也可以先保留为项目内套件，用路径指定其中一个 Skill 做试运行。
-
