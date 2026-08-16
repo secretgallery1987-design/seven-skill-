@@ -1,0 +1,4 @@
+interface:
+  display_name: "思考过程结构化"
+  short_description: "先问一个最关键的问题，再把碎片想法整理成清晰、可行动的判断"
+  default_prompt: "使用 $structure-my-thinking 帮我梳理下面这些零散想法。"
