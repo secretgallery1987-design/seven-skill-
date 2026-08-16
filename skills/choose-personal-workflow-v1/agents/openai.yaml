@@ -1,0 +1,5 @@
+interface:
+  display_name: "帮我选择处理方式"
+  short_description: "识别零碎输入适合哪一个专业 Skill 并先询问用户确认"
+  default_prompt: "Use $choose-personal-workflow-v1 to suggest which personal workflow skill fits this input, ask me once, and wait."
+
